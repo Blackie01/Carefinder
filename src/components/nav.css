@@ -1,0 +1,22 @@
+.overall-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1.5rem;
+}
+
+/* 
+blu: #cad3de
+
+green: #d2deca
+*/
+.nav-mid-section {
+    display: flex;
+    height: max-content;
+    gap: 2rem;
+}
+
+.signin-button {
+    border: 1px solid green;
+    padding: 0.8rem 1rem;
+}

@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/homepage';
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
-      Is this app live?
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+
+      </Routes>
     </div>
   );
 }
