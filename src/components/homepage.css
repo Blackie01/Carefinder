@@ -33,5 +33,15 @@
 }
 
 .right-side {
-    width: 50%;
+    width: 45%;
+    display: flex;
+    
 }
+
+.right-side img {
+}
+
+
+
+
+

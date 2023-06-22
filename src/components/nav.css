@@ -20,7 +20,7 @@ green: #d2deca
 }
 
 .signin-button {
-    border: 1px solid green;
+    border: 1px solid #decade;
     padding: 0.8rem 1rem;
     border-radius: 10px;
     cursor: pointer;
