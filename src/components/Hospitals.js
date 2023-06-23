@@ -1,8 +1,14 @@
 import React from "react";
+import Nav from "./nav";
 
 function Hospitals () {
+
     return (
-        <section></section>
+        <section>
+            <Nav/>
+
+
+        </section>
     )
 }
 
