@@ -4,7 +4,7 @@ import Nav from "./nav";
 import homeDoctor from '../components/assets/home-doctor.png'
 import caduceus from '../components/assets/caduceus.png'
 
-function Home({ getInput, fixInput }) {
+function Home({ fixInput, getInput}) {
   return (
     <section className="homepage-x">
       <Nav />
@@ -13,7 +13,7 @@ function Home({ getInput, fixInput }) {
         <section className="container">
           <section className="form-area">
             <h3>Find the care you need.</h3>
-            <form>
+            <form onsubmit="event.preventDefault();">
               <input 
               type="text" 
               placeholder="Enter your city" 
