@@ -19,6 +19,7 @@ function App() {
   const getInput = (e) => {
 
     console.log(SearchInput)
+    console.log(SearchInput)
   }
 
   // function to set the value gotten into state manager for the api link
